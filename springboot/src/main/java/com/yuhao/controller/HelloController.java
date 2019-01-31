@@ -1,0 +1,12 @@
+package com.yuhao.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+	@RequestMapping("/juran")
+	public String yuhao() {
+		return "浩浩：我爱你居然";
+	}
+}
